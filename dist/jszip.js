@@ -3411,7 +3411,7 @@ exports.getTypeOf = function(input) {
  */
 exports.checkSupport = function(type) {
     var supported = support[type.toLowerCase()];
-    if (!supported && support != 'nodebuffer') {
+    if (!supported && supported != 'nodebuffer') {
         throw new Error(type + " is not supported by this platform");
     }
 };
