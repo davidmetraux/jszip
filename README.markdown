@@ -1,3 +1,6 @@
+FORK Information: For use with shpjs as part of ISTI's efforts to port Quakewatch to Node 20.
+
+
 JSZip
 =====
 
